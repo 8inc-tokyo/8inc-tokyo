@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*!
+cssカスタム用ファイル
+ */
+
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+.masthead h1 {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 7rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.text-white-70 {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.about-new-section {
+  padding-top: 10rem;
+}
+
+.about-new-section p {
+  margin-bottom: 5rem;
+}
+
+table.company {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 90%;
+}
+
+.wide {
+  width: 30%;
+}
